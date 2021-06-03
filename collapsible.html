@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Collapsible</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Only collapsible</h1>
+        <br>
+        <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#first">collapse</button>
+        <div id="first" class="collapse">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ullam quidem, eligendi modi repudiandae magnam facilis voluptas quis maxime laborum ut sequi earum doloribus! Nisi, quae illum, inventore consequatur animi quo suscipit a veniam voluptatum voluptas exercitationem. In voluptate itaque quam. Et odit, itaque quas unde rem adipisci amet tempore.
+        </div>
+        <hr>
+        <a href="#second" class="btn btn-success" data-toggle="collapse">Simple collapse</a>
+        <div id="second" class="collapse in">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti totam, dolor iusto hic, necessitatibus perferendis, nam dolores molestiae vel adipisci aperiam? Nostrum amet quod cupiditate et similique ipsa ut.
+        </div>
+        <br>
+        <br>
+        <br>
+        <h1>Panel collapsible</h1>
+        <div class="panel-group">
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#mypanel" data-toggle="collapse">Collapsible panel</a>
+                    </h4>
+                </div>
+                <div class="panel-collapse collapse" id="mypanel">
+                    <div class="panel-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquid ex pariatur ipsum placeat amet, porro blanditiis, nulla modi perspiciatis, laborum eligendi minima animi ullam alias in? Praesentium, blanditiis autem.</div>
+                    <div class="panel-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus laborum ratione eveniet excepturi laboriosam autem dolore pariatur sit deleniti fugiat. Sapiente, similique? Voluptatum architecto ad odio tempora aspernatur deserunt. Numquam?</div>                    
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h1>List collapsible</h1>
+        <div class="panel-group">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#mylist" data-toggle="collapse">Collapsible panel</a>
+                    </h4>
+                </div>
+                <div class="panel-collapse collapse" id="mylist">
+                    <ul class="list-group">
+                        <li class="list-group-item">item 1</li>
+                        <li class="list-group-item">item 2</li>
+                        <li class="list-group-item">item 3</li>
+                    </ul>
+                    <div class="panel-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus laborum ratione eveniet excepturi laboriosam autem dolore pariatur sit deleniti fugiat. Sapiente, similique? Voluptatum architecto ad odio tempora aspernatur deserunt. Numquam?</div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Dynamic Tab and Pill menus</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Inline tab menus</h2>
+        <ul class="nav nav-pills">
+            <li class="active"><a data-toggle="tab" href="#link1">Link 1</a></li>
+            <li><a data-toggle="tab" href="#link2">Link 2</a></li>
+            <li><a data-toggle="tab" href="#link3">Link 3</a></li>
+            <li><a data-toggle="tab" href="#link4">Link 4</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="link1" class="tab-pane fade in active">
+                <h3>Link 1</h3>
+                Content.
+            </div>
+            <div id="link2" class="tab-pane fade">
+                <h3>Link 2</h3>
+                Content.
+            </div>
+            <div id="link3" class="tab-pane fade">
+                <h3>Link 3</h3>
+                Content.
+            </div>
+            <div id="link4" class="tab-pane fade">
+                <h3>Link 4</h3>
+                Content.
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <h2>Tab menu with dropdown</h2>
+    <ul class="nav nav-pills">
+        <li class="active"><a href="#link5" data-toggle="tab">Link 1</a></li>
+        <li class="dropdown" data-toggle="tab">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Link 2</a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Sub link 1</a></li>
+                <li><a href="#">Sub link 2</a></li>
+                <li><a href="#">Sub link 3</a></li>
+            </ul>
+        </li>
+        <li><a href="#link7" data-toggle="tab">Link 3</a></li>
+        <li><a href="#link8" data-toggle="tab">Link 4</a></li>
+    </ul>
+    <div class="tab-content">
+        <div id="link5" class="tab-pane fade in active">
+            <h3>Link 5</h3>
+            Content.
+        </div>
+        <div id="link6" class="tab-pane fade">
+            <h3>Link 6</h3>
+            Content.
+        </div>
+        <div id="link7" class="tab-pane fade">
+            <h3>Link 7</h3>
+            Content.
+        </div>
+        <div id="link8" class="tab-pane fade">
+            <h3>Link 8</h3>
+            Content.
+        </div>
+    </div>
+</body>
+</html>
